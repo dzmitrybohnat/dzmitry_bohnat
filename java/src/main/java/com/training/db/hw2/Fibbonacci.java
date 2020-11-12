@@ -2,14 +2,12 @@ package com.training.db.hw2;
 
 public class Fibbonacci {
 
-    public static void listFibbonacci(int n2_fib) {
-
-        int n3 = UiUtil.input("Input third number: ");
+    public static void listFibbonacci(int n2, int n3) {
 
         int f1 = 0, f2 = 1, f3 = 0;
         int counter = 0;
 
-        switch (n2_fib) {
+        switch (n2) {
             case 1:
                 System.out.print("First " + n3 + " Fibonacci numbers are: ");
                 while (counter < n3) {

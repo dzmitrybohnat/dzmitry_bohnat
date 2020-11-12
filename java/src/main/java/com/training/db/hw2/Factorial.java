@@ -2,29 +2,28 @@ package com.training.db.hw2;
 
 public class Factorial {
 
-    public static void calculateFactorial(int n2_fac) {
+    public static void calculateFactorial(int n2, int n3) {
 
-        int n3 = UiUtil.input("Input third number: ");
         int i = 1, result = 1;
 
-        switch (n2_fac){
+        switch (n2){
             case 1:
                 while (i <= n3) {
-                    result = result * i;
+                    result *= i;
                     i++;
                 }
                 System.out.println("This is 'while' loop");
                 break;
             case 2:
                 do {
-                    result = result * i;
+                    result *= i;
                     i++;
                 } while (i <= n3);
                 System.out.println("This is 'do-while' loop");
                 break;
             case 3:
                 for (; i <= n3; i++) {
-                    result = result * i;
+                    result *= i;
                 }
                 System.out.println("This is 'for' loop");
                 break;
