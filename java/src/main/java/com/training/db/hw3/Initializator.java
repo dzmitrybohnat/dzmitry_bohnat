@@ -21,8 +21,11 @@ public class Initializator {
 class Student {
     String name;
     char letter;
+    Character letter2;
     int num;
     Integer age;
     double rate;
+    Double rateWrapper;
     boolean isEnabled;
+    Boolean isEnabledWrapper;
 }

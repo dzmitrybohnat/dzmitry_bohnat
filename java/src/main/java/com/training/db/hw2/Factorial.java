@@ -4,7 +4,8 @@ public class Factorial {
 
     public static void calculateFactorial(int n2, int n3) {
 
-        int i = 1, result = 1;
+        int i = 1;
+        int result = 1;
 
         switch (n2){
             case 1:

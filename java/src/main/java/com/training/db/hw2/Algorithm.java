@@ -4,9 +4,9 @@ public class Algorithm {
 
     public static void main(String[] args) {
 
-        int n1 = UiUtil.input("Input first number: ");
-        int n2 = UiUtil.input("Input second number: ");
-        int n3 = UiUtil.input("Input third number: ");
+        int n1 = UiUtil.input("Input first number: "); // calculates fibbonacci (1) or factorial (2)
+        int n2 = UiUtil.input("Input second number: "); // use WHILE (1), DO_WHILE (2) or FOR (3)
+        int n3 = UiUtil.input("Input third number: "); // number for which to calculate
   
         switch (n1) {
             case 1:

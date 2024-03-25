@@ -15,7 +15,7 @@ public class UiUtil {
                 scannedNumber = Integer.parseInt(sc.nextLine());
                 isValid = true;
             } catch (NumberFormatException e) {
-                System.out.println("Invalid number. Please try again");
+                System.out.println(scannedNumber+" is not valid value for number. Please try again");
             }
         } while (!isValid);
 
