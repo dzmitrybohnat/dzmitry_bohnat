@@ -1,3 +1,4 @@
+/*
 package com.training.db.hw0;
 
 import com.github.opendevl.*;
@@ -18,4 +19,4 @@ public class FlattenJson1 {
         flatMe.write2csv("C:\\Users\\Dzmitry_Bohnat\\IdeaProjects\\response.csv");
     }
 
-}
+}*/
